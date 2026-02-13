@@ -11,6 +11,8 @@ while True:
     else:
         os.mkdir(nome)
         print("Pasta criada com sucesso!!")
+        print()
+
          
     continuar = input('Deseja Criar uma nova pasta? \n[S]sim \nQualquer outra tecla para não\n ')
     if continuar == 's':
